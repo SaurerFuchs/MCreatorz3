@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ghostsandgraves:block/underworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "ghostsandgraves:block/underworld_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Ghosts And Graves",
+    "icon": {
+      "value": "CUSTOM:Reaper.spawn_egg"
+    },
+    "showSearch": true
+  }
+}

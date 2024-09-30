@@ -1,0 +1,17 @@
+{
+  "item.ghostsandgraves.acid_bucket": "Acid Bucket",
+  "item.dddddddd.reaper_spawn_egg": "Reaper Spawn Egg",
+  "entity.dddddddd.reaper": "Reaper",
+  "item.ghostsandgraves.powdermouse_spawn_egg": "Powdermouse Spawn Egg",
+  "fluid.ghostsandgraves.acid": "Acid",
+  "death.attack.aciddeath": "%1$s was decomposed in Acid",
+  "death.attack.aciddeath.item": "%1$s was killed by %2$s using %3$s",
+  "item.ghostsandgraves.reaper_spawn_egg": "Reeper Spawn Egg",
+  "item.ghostsandgraves.underworld": "Underworld Portal Igniter",
+  "item_group.ghostsandgraves.ghosts_and_graves": "Ghosts And Graves",
+  "entity.ghostsandgraves.powdermouse": "Powdermouse",
+  "entity.ghostsandgraves.reaper": "Reeper",
+  "block.ghostsandgraves.acid": "Acid",
+  "death.attack.aciddeath.player": "%1$s died whilst trying to escape %2$s",
+  "biome.ghostsandgraves.test": "Test"
+}

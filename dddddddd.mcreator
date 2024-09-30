@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "Reaper",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/client/renderer/ReaperRenderer.java",
+          "src/main/java/net/mcreator/dddddddd/entity/model/ReaperModel.java",
+          "src/main/resources/data/ghostsandgraves/forge/biome_modifier/reaper_biome_modifier.json",
+          "src/main/java/net/mcreator/dddddddd/entity/ReaperEntity.java",
+          "src/main/resources/assets/ghostsandgraves/models/item/reaper_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.dddddddd.reaper_spawn_egg": "Reaper Spawn Egg",
+      "entity.dddddddd.reaper": "Reaper",
+      "item.ghostsandgraves.reaper_spawn_egg": "Reaper Spawn Egg",
+      "entity.ghostsandgraves.reaper": "Reaper"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ghostsandgraves",
+    "modName": "Ghosts and Graves",
+    "version": "1.0.0",
+    "author": "SaurerFuchs",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.dddddddd"
+  },
+  "mcreatorVersion": 202400232117
+}

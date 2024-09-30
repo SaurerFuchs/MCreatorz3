@@ -1,0 +1,216 @@
+{
+  "mod_elements": [
+    {
+      "name": "Reaper",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/client/renderer/ReaperRenderer.java",
+          "src/main/java/net/mcreator/dddddddd/entity/model/ReaperModel.java",
+          "src/main/resources/data/ghostsandgraves/forge/biome_modifier/reaper_biome_modifier.json",
+          "src/main/java/net/mcreator/dddddddd/entity/ReaperEntity.java",
+          "src/main/resources/assets/ghostsandgraves/models/item/reaper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GhostsAndGraves",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghosts_and_graves",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/item/AcidItem.java",
+          "src/main/resources/assets/ghostsandgraves/models/item/acid_bucket.json",
+          "src/main/java/net/mcreator/dddddddd/fluid/types/AcidFluidType.java",
+          "src/main/resources/assets/ghostsandgraves/blockstates/acid.json",
+          "src/main/java/net/mcreator/dddddddd/block/AcidBlock.java",
+          "src/main/resources/assets/ghostsandgraves/models/block/acid.json",
+          "src/main/java/net/mcreator/dddddddd/fluid/AcidFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "Aciddeath",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aciddeath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ghostsandgraves/damage_type/aciddeath.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/procedures/AcidMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Underworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/world/teleporter/UnderworldTeleporter.java",
+          "src/main/java/net/mcreator/dddddddd/world/teleporter/UnderworldPortalShape.java",
+          "src/main/java/net/mcreator/dddddddd/world/dimension/UnderworldDimension.java",
+          "src/main/java/net/mcreator/dddddddd/block/UnderworldPortalBlock.java",
+          "src/main/resources/data/ghostsandgraves/dimension_type/underworld.json",
+          "src/main/resources/data/ghostsandgraves/dimension/underworld.json",
+          "src/main/resources/assets/ghostsandgraves/models/block/underworld_portal_ew.json",
+          "src/main/resources/assets/ghostsandgraves/models/item/underworld.json",
+          "src/main/resources/assets/ghostsandgraves/blockstates/underworld_portal.json",
+          "src/main/java/net/mcreator/dddddddd/item/UnderworldItem.java",
+          "src/main/resources/assets/ghostsandgraves/models/block/underworld_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "PowdermousePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powdermouse_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/procedures/PowdermousePlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Powdermouse",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powdermouse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dddddddd/entity/PowdermouseEntity.java",
+          "src/main/resources/assets/ghostsandgraves/models/item/powdermouse_spawn_egg.json",
+          "src/main/resources/data/ghostsandgraves/forge/biome_modifier/powdermouse_biome_modifier.json",
+          "src/main/java/net/mcreator/dddddddd/client/renderer/PowdermouseRenderer.java",
+          "src/main/java/net/mcreator/dddddddd/entity/model/PowdermouseModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ghostsandgraves/worldgen/configured_feature/test_tree.json",
+          "src/main/resources/data/ghostsandgraves/worldgen/placed_feature/test_tree.json",
+          "src/main/resources/data/ghostsandgraves/worldgen/biome/test.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Acid"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DEEPSLATE",
+      "~Blocks.DEEPSLATE_TILES"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ghostsandgraves.acid_bucket": "Acid Bucket",
+      "item.dddddddd.reaper_spawn_egg": "Reaper Spawn Egg",
+      "entity.dddddddd.reaper": "Reaper",
+      "item.ghostsandgraves.powdermouse_spawn_egg": "Powdermouse Spawn Egg",
+      "fluid.ghostsandgraves.acid": "Acid",
+      "death.attack.aciddeath": "%1$s was decomposed in Acid",
+      "death.attack.aciddeath.item": "%1$s was killed by %2$s using %3$s",
+      "item.ghostsandgraves.reaper_spawn_egg": "Reeper Spawn Egg",
+      "item.ghostsandgraves.underworld": "Underworld Portal Igniter",
+      "item_group.ghostsandgraves.ghosts_and_graves": "Ghosts And Graves",
+      "entity.ghostsandgraves.powdermouse": "Powdermouse",
+      "entity.ghostsandgraves.reaper": "Reeper",
+      "block.ghostsandgraves.acid": "Acid",
+      "death.attack.aciddeath.player": "%1$s died whilst trying to escape %2$s",
+      "biome.ghostsandgraves.test": "Test"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ghostsandgraves",
+    "modName": "Ghosts and Graves",
+    "version": "1.0.0",
+    "author": "SaurerFuchs",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.dddddddd"
+  },
+  "mcreatorVersion": 202400232117
+}
